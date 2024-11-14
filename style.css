@@ -50,6 +50,7 @@ main {
 }
 
 footer {
+  align-content: center;
   width: 100%;
   height: 778px;
   background-color: #474747;

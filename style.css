@@ -20,6 +20,14 @@ header {
   display: inline-block;
   padding: 10px 15px;
 }
+.navigate_links li a {
+  text-decoration: none;
+  color: black;
+}
+.navigate_links li a:hover {
+  background-color: grey;
+  border-radius: 5px;
+}
 
 button {
   float: right;
@@ -76,4 +84,27 @@ footer {
 
 #bottomSectionLi {
   list-style: none;
+}
+#ourblog-content {
+  width:50%;
+  margin: 10% auto;
+}
+#ourblog-content h3, p {
+  text-align: left;
+  align-items: left;
+}
+#ourblog-content ol li {
+  text-align: left;
+}
+#ourblog-content p {
+  text-align: left;
+  align-items: left;
+  font-size: 18px;
+  max-width: 738px;
+}
+.secrets {
+  margin-bottom: 5%;
+}
+.spaghetti {
+  border-radius: 10px;
 }

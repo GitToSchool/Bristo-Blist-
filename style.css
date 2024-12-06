@@ -20,6 +20,14 @@ header {
   display: inline-block;
   padding: 10px 15px;
 }
+.navigate_links li a {
+  text-decoration: none;
+  color: black;
+}
+.navigate_links li a:hover {
+  background-color: grey;
+  border-radius: 5px;
+}
 
 button {
   float: right;
@@ -76,4 +84,45 @@ footer {
 
 #bottomSectionLi {
   list-style: none;
+  text-decoration: none;
+}
+.column ul li {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+.column ul li a:visited, a:link {
+  color: white;
+  text-decoration: none;
+}
+.bottomli-1 {
+  margin-left: 35.5%;
+}
+.bottomli-2 {
+  margin-left: 31%;
+}
+#ourblog-content, #menuSection {
+  width:50%;
+  margin: 10% auto;
+}
+#ourblog-content h3, p {
+  text-align: left;
+  align-items: left;
+}
+#ourblog-content ol li {
+  text-align: left;
+}
+#ourblog-content p {
+  text-align: left;
+  align-items: left;
+  font-size: 18px;
+  max-width: 738px;
+}
+
+.secrets {
+  margin-bottom: 5%;
+}
+.spaghetti {
+  border-radius: 10px;
 }
